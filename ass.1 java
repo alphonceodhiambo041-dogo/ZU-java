@@ -1,0 +1,15 @@
+	package zu;
+public class ZU
+{
+String unitcode,unitname,grade;
+    public static void main(String[] args) 
+    {
+    ZU student=new ZU();
+    student.unitcode="BSD 124";
+    student.unitname="OOP2";
+    student.grade="A";
+    System.out.println("unitcode="+student.unitcode);
+   System.out.println("unitname="+student.unitname);
+   System.out.println("grade="+student.grade);
+    } 
+}
